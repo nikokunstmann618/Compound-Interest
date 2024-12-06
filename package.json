@@ -1,0 +1,15 @@
+{
+  "name": "Compound Interest Calculator",
+  "version": "1.0.0",
+  "description": "Calculate compound interest by filling out the text fields",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css", "js"],
+  "author": "Nikolas Kunstmann",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}

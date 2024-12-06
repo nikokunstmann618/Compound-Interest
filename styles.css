@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50px auto 30px;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgreen;
+  border: solid green;
+}
+
+header {
+  font-size: 30px;
+  padding: 5px;
+  animation: enlargeHeader 2s ease-in-out forwards;
+}
+
+footer {
+  font-style: italic;
+  font-family: Oswald;
+}
+
+header div1 {
+  text-shadow: 3px 2px 2px black;
+  font-family: Oswald;
+}
+
+main {
+  padding: 40px 10px 10px;
+  background-image: linear-gradient(cyan, rgb(44, 205, 44), beige);
+  font-family: Oswald;
+}
+
+form {
+  display: grid;
+  grid-template: auto auto auto auto / 5em 150px;
+  gap: 4px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes enlargeHeader {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
